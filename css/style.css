@@ -1,0 +1,245 @@
+/*
+font-family: 'Barlow', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+.animate__pulse{
+    color: red;
+}
+/*_____general_____*/
+.disabledd {
+    cursor: not-allowed;
+    pointer-events: none;
+}
+body {
+    background: url(../img/fondo.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0px 0px 0px 0px;
+}
+
+h1 {
+    color: rgb(255, 255, 255) !important;
+    font-family: 'Barlow', sans-serif;
+
+}
+
+p, h5{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+}
+
+div.container {
+    background-color: #0F0125;
+    border-radius: 20px;
+}
+.titles{
+    font-size: 50px;
+}
+/*botones*/
+button.boton {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #8C0BDD;
+    border: none;
+}
+.btn:disabled {
+    background-color: #8C0BDD!important;
+    border: none;
+}
+.btn-primary{
+    background-color: #8C0BDD!important;
+}
+/*_____general_____*/
+
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+/*_____navbar_____*/
+nav.bg-light {
+    background-color: black !important;
+    margin-bottom: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a.nav-link {
+    color: rgb(255, 255, 255);
+   
+}
+
+a:hover.nav-link {
+    color: #ac28ff;
+}
+/*_____navbar_____*/
+
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+/*_____mini perfil_____*/
+.card {
+    padding: 8px;
+    margin: 0 auto;
+    margin-top: 80px;
+
+}
+img.icon_net:hover {
+    filter: contrast(40%) sepia(1) hue-rotate(300deg) saturate(1000%);
+}
+div.card {
+    background-color:#0F0125;
+    margin-bottom: 35px;
+    border-radius: 20px;
+    box-shadow: 13px 13px 20px 1px rgba(0, 0, 0, 0.74);
+}
+
+div.card-body {
+    padding: 10px;
+}
+
+.rounded-circle {
+    /*imagen redonda*/
+    margin: 10px 5px 5px 5px;
+}
+
+.card-title {
+    text-align: center;
+    font-family: 'Barlow', sans-serif!important;
+}
+
+h3.card-title {
+    color: rgb(255, 255, 255);
+}
+
+.card-text {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+#linkkk {
+    text-decoration: underline;
+}
+#linkkk:hover {
+    filter: contrast(40%) sepia(1) hue-rotate(300deg) saturate(1000%);
+}
+.descripcion {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a.nav-link {
+    margin: 10px 10px 10px 10px;
+    padding: 0px 0px 0px 0px;
+}
+ul.nav {
+    margin-top: 40px;
+}
+/*_____mini perfil_____*/
+
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+/*_____información_____*/
+.contenedor {
+    background-color: #0F0125;
+
+}
+p.descr {
+    font-size: 25px;
+}
+.fondo {
+    padding: 40px;
+    margin: 15px;
+    background-color: #0F0125;
+    border-radius: 20px;
+}
+
+div.col.info {
+    padding: 40px;
+}
+
+div.col.proj {
+    padding: 40px;
+}
+
+div.col.cont {
+    padding: 40px;
+}
+
+img.skills {
+    text-align: center;
+    background-color: #0F0125;
+    border: 0px;
+}
+
+div.skills {
+    text-align: center;
+}
+
+p.skill {
+    text-align: center;
+    text-decoration: none;
+}
+.infoskills {
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+/*_____información_____*/
+
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+/*_____proyectos_____*/
+.proyectoss {
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+img.dib {
+    padding: 0px;
+    border-radius: 0px;
+    border: none;
+}
+a:link{
+    text-decoration: none;
+    color: white;
+}
+h5.nameprojects {
+    margin: 0 auto;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+.nameprojects:hover {
+    filter: contrast(40%) sepia(1) hue-rotate(300deg) saturate(1000%);
+}
+/*_____proyectos_____*/
+
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+/*_____contacto_____*/
+label{
+    color: white;
+    margin: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer {
+    background-color: black;
+  
+}
+#footer{
+    background-color: black;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+.contenedormensaje {
+    position: relative;
+}
+#mensaje {
+    display: none; /*none default - block active*/
+    width: 50%;
+    height: 30%;
+    background-color: #0F0125;
+    border-radius: 20px;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    top: 40%;
+    left: 30%;
+}
+p.textmensaje {
+    font-size: 20px;  
+    margin: 15px;
+    padding: 10px 10px;
+}
+/*_____contacto_____*/
